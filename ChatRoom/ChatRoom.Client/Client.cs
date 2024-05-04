@@ -1,5 +1,6 @@
 ﻿using System.Net;
 using System.Net.Sockets;
+using System.Text;
 using System.Threading.Channels;
 
 namespace ChatRoom.Client;
@@ -28,7 +29,11 @@ public class Client
             if (_clientSocket.Connected)
                 Console.WriteLine("Socket connected to " + _clientSocket.RemoteEndPoint.ToString());
             else
+            {
+                Console.WriteLine("Connection failed, retrying...");
                 StartConnection();
+            }
+                
         }
         catch (Exception e)
         {
@@ -38,16 +43,41 @@ public class Client
 
     public void StopConnection()
     {
-        // TODO: Add StopConnection method
+        _clientSocket.Close();
     }
 
-    public void SendMessage()
+    public string SendMessage(string message)
     {
-        // TODO: Add SendMessage method
+        byte[] byteMessage = Encoding.ASCII.GetBytes(message);
+        _clientSocket.Send(byteMessage);
+
+        return ReceiveMessage();
     }
 
-    public void ReceiveMessage()
+    public string ReceiveMessage()
     {
-        // TODO: Add ReceiveMessage method
+        byte[] messageBuffer = new byte[1024];
+        int byteCount = _clientSocket.Receive(messageBuffer);
+        
+        return Encoding.ASCII.GetString(messageBuffer, 0, byteCount);
+    }
+
+    public static void Main(string[] args)
+    {
+        Client client = new Client()
+        {
+            Name = "Something",
+            Port = 6666
+        };
+        
+        client.StartConnection();
+
+        string message;
+        
+        while (true)
+        {
+            message = Console.ReadLine();
+            Console.WriteLine(client.SendMessage(message));
+        }
     }
 }
