@@ -1,9 +1,11 @@
-﻿namespace ChatRoom.Server;
+﻿using System.Net;
+
+namespace ChatRoom.Server;
 
 public class Server
 {
-    // TODO: Add Server data model
-    // TODO: Add connection methods
-    // TODO(wontfix): Add exception handling
-    // TODO: Example Main method
+    public string Name { get; set; }
+    public int Port { get; set; } = 1433;
+    public IPHostEntry HostEntry { get; set; }
+    public IPAddress ServerIpAddress { get; set; }
 }

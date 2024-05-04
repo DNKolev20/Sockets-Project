@@ -1,0 +1,15 @@
+C:\Users\GTZhekov20\source\repos\2324-sd-csharp-11v-introduction-to-sockets-GTZhekov20\ChatRoom\ChatRoom.Server\bin\Debug\net8.0\ChatRoom.Server.exe
+C:\Users\GTZhekov20\source\repos\2324-sd-csharp-11v-introduction-to-sockets-GTZhekov20\ChatRoom\ChatRoom.Server\bin\Debug\net8.0\ChatRoom.Server.deps.json
+C:\Users\GTZhekov20\source\repos\2324-sd-csharp-11v-introduction-to-sockets-GTZhekov20\ChatRoom\ChatRoom.Server\bin\Debug\net8.0\ChatRoom.Server.runtimeconfig.json
+C:\Users\GTZhekov20\source\repos\2324-sd-csharp-11v-introduction-to-sockets-GTZhekov20\ChatRoom\ChatRoom.Server\bin\Debug\net8.0\ChatRoom.Server.dll
+C:\Users\GTZhekov20\source\repos\2324-sd-csharp-11v-introduction-to-sockets-GTZhekov20\ChatRoom\ChatRoom.Server\bin\Debug\net8.0\ChatRoom.Server.pdb
+C:\Users\GTZhekov20\source\repos\2324-sd-csharp-11v-introduction-to-sockets-GTZhekov20\ChatRoom\ChatRoom.Server\obj\Debug\net8.0\ChatRoom.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GTZhekov20\source\repos\2324-sd-csharp-11v-introduction-to-sockets-GTZhekov20\ChatRoom\ChatRoom.Server\obj\Debug\net8.0\ChatRoom.Server.AssemblyInfoInputs.cache
+C:\Users\GTZhekov20\source\repos\2324-sd-csharp-11v-introduction-to-sockets-GTZhekov20\ChatRoom\ChatRoom.Server\obj\Debug\net8.0\ChatRoom.Server.AssemblyInfo.cs
+C:\Users\GTZhekov20\source\repos\2324-sd-csharp-11v-introduction-to-sockets-GTZhekov20\ChatRoom\ChatRoom.Server\obj\Debug\net8.0\ChatRoom.Server.csproj.CoreCompileInputs.cache
+C:\Users\GTZhekov20\source\repos\2324-sd-csharp-11v-introduction-to-sockets-GTZhekov20\ChatRoom\ChatRoom.Server\obj\Debug\net8.0\ChatRoom.Server.sourcelink.json
+C:\Users\GTZhekov20\source\repos\2324-sd-csharp-11v-introduction-to-sockets-GTZhekov20\ChatRoom\ChatRoom.Server\obj\Debug\net8.0\ChatRoom.Server.dll
+C:\Users\GTZhekov20\source\repos\2324-sd-csharp-11v-introduction-to-sockets-GTZhekov20\ChatRoom\ChatRoom.Server\obj\Debug\net8.0\refint\ChatRoom.Server.dll
+C:\Users\GTZhekov20\source\repos\2324-sd-csharp-11v-introduction-to-sockets-GTZhekov20\ChatRoom\ChatRoom.Server\obj\Debug\net8.0\ChatRoom.Server.pdb
+C:\Users\GTZhekov20\source\repos\2324-sd-csharp-11v-introduction-to-sockets-GTZhekov20\ChatRoom\ChatRoom.Server\obj\Debug\net8.0\ChatRoom.Server.genruntimeconfig.cache
+C:\Users\GTZhekov20\source\repos\2324-sd-csharp-11v-introduction-to-sockets-GTZhekov20\ChatRoom\ChatRoom.Server\obj\Debug\net8.0\ref\ChatRoom.Server.dll
